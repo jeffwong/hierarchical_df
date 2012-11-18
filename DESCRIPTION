@@ -1,0 +1,16 @@
+Package: hierarchicalDF
+Maintainer: <jeff.ct.wong@gmail.com>
+Author: Jeffrey Wong
+Version: 1.0
+License: GPL-3
+Title: Hierarchical Data Frames
+Description: Convert flat data frames to hierarchical lists
+Depends:
+    plyr
+Suggests:
+    testthat,
+    roxygen2,
+    RJSONIO
+Collate:
+    'hierarchical_df.R'
+    'hierarchicalDF-package.r'
